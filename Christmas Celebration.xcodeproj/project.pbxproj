@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B4B0C4E02ED41773003221FD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B0C4DF2ED41773003221FD /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B4027EA82ECEB70500BC0668 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,12 +31,13 @@
 		B4027E952ECEB70400BC0668 /* Christmas Celebration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Christmas Celebration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4027EA72ECEB70500BC0668 /* Christmas CelebrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Christmas CelebrationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4027EB12ECEB70500BC0668 /* Christmas CelebrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Christmas CelebrationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B0C4DF2ED41773003221FD /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B4027E972ECEB70400BC0668 /* Christmas Celebration */ = {
+		B4027E972ECEB70400BC0668 /* Christmas Season Celebration */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Christmas Celebration";
+			path = "Christmas Season Celebration";
 			sourceTree = "<group>";
 		};
 		B4027EAA2ECEB70500BC0668 /* Christmas CelebrationTests */ = {
@@ -75,7 +80,8 @@
 		B4027E8C2ECEB70400BC0668 = {
 			isa = PBXGroup;
 			children = (
-				B4027E972ECEB70400BC0668 /* Christmas Celebration */,
+				B4B0C4DF2ED41773003221FD /* Launch Screen.storyboard */,
+				B4027E972ECEB70400BC0668 /* Christmas Season Celebration */,
 				B4027EAA2ECEB70500BC0668 /* Christmas CelebrationTests */,
 				B4027EB42ECEB70500BC0668 /* Christmas CelebrationUITests */,
 				B4027E962ECEB70400BC0668 /* Products */,
@@ -108,7 +114,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B4027E972ECEB70400BC0668 /* Christmas Celebration */,
+				B4027E972ECEB70400BC0668 /* Christmas Season Celebration */,
 			);
 			name = "Christmas Celebration";
 			packageProductDependencies = (
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4B0C4E02ED41773003221FD /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,10 +400,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = L25556Z34Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SeasonOfChrist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -409,6 +421,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "juniors-homers.Christmas-Celebration";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Junior's Homers";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -424,10 +438,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = L25556Z34Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SeasonOfChrist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -440,6 +459,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "juniors-homers.Christmas-Celebration";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Junior's Homers";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
