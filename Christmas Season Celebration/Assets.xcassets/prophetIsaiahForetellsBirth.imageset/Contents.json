@@ -1,0 +1,22 @@
+{
+  "images" : [
+    {
+      "filename" : "prophet-isaiah-foretells-christs-birth-sm.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "prophet-isaiah-foretells-christs-birth-md.jpeg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
