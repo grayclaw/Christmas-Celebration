@@ -1,12 +1,12 @@
 {
   "images" : [
     {
-      "filename" : "nativity-sm.jpeg",
+      "filename" : "nativity2-sm.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "nativity-md.jpeg",
+      "filename" : "nativity2-md.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },

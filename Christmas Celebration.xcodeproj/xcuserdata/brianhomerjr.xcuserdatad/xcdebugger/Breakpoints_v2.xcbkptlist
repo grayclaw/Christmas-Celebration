@@ -7,22 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "509BAF69-BA15-4002-91C8-4609ADA347DF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Christmas Season Celebration/Daily_Suggestions.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "allSuggestions"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "5116840A-74B7-47CB-A63D-B4F60B4BE5F3"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -34,6 +18,36 @@
             endingLineNumber = "48"
             landmarkName = "unknown"
             landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "5116840A-74B7-47CB-A63D-B4F60B4BE5F3 - 707171b347b4ddf0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "one-time initialization function for secondNephi_25_19_26"
+                  moduleName = "Christmas Celebration.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brianhomerjr/Coding/Christmas%20Celebration/Christmas%20Season%20Celebration/scriptures/BookOfMormon.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48">
+               </Location>
+               <Location
+                  uuid = "5116840A-74B7-47CB-A63D-B4F60B4BE5F3 - 5f02a586f1639ac4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Christmas_Celebration.secondNephi_25_19_26.unsafeMutableAddressor : Swift.String"
+                  moduleName = "Christmas Celebration.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brianhomerjr/Coding/Christmas%20Celebration/Christmas%20Season%20Celebration/scriptures/BookOfMormon.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

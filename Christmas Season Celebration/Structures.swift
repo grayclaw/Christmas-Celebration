@@ -36,7 +36,3 @@ struct SeasonalSuggestions {
     let content: [DailyContent]
 }
 
-struct Suggestion {
-    let title: String
-    let link: URL?
-}
